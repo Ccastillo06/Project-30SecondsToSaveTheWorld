@@ -199,6 +199,8 @@ $(document).ready(function() {
     $("#shop").click(function() {
       $("#shop").css("display", "none");
       $("#shoppage").css("display", "block");
+      bossFight.pause();
+      bossFight.currentTime = 0;
       mapAudio.pause();
       mapAudio.currentTime = 0;
       shopAudio.play()
