@@ -1,0 +1,76 @@
+<head>
+  <title>30 Seconds To Save The World</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="src/game.js"></script>
+  <script type="text/javascript" src="src/character.js"></script>
+    <script type="text/javascript" src="src/monster.js"></script>
+  <script type="text/javascript" src="src/spider.js"></script>
+  <script type="text/javascript" src="src/wolf.js"></script>
+  <script type="text/javascript" src="src/boss.js"></script>
+  <script type="text/javascript" src="src/timer.js"></script>
+  <script type="text/javascript" src="src/ion.sound.js"></script>
+</head>
+<body>
+  <div id="congrats">
+  </div>
+  <div class="shopground" id="shoppage">
+    <div class="shopmsg">
+      <h1>Welcome to the shop!</h1>
+      <h1> Use your XP to buy upgrades and save the world!!</h1>
+    </div>
+    <div class="play">
+      <button type="button" id="play2">
+        <h1>Play</h1>
+      </button>
+    </div>
+    <div class="experience">
+      <h2 id="exptext"></h2>
+    </div>
+    <div class="bottles">
+      <button type="button" id="attack">
+        <h1>Attack!</h1>
+        <img src="images/Extras/yellowbottle.png">
+        <h3>+1Atk -10xp</h3>
+      </button>
+      <button type="button" id="health">
+        <h1>Health!</h1>
+        <img src="images/Extras/redbottle.png">
+        <h3>+1Hp -20xp</h3>
+      </button>
+      <button type="button" id="time">
+        <h1>Time!</h1>
+        <img src="images/Extras/bluebottle.png">
+        <h3>+10s -30xp</h3>
+      </button>
+    </div>
+  </div>
+  <audio autoplay loop id="mapSound">
+        <source src="sounds/map.mp3">
+  </audio>
+  <audio loop id="shopSound">
+        <source src="sounds/shop.mp3">
+  </audio>
+  <audio loop id="winSound">
+        <source src="sounds/win.mp3">
+  </audio>
+  <audio loop id="bossFight">
+        <source src="sounds/bossfight.mp3">
+  </audio>
+  <audio id="dragonRoar">
+        <source src="sounds/dragonroar.mp3">
+  </audio>
+  <audio id="explosion">
+        <source src="sounds/explosion.mp3">
+  </audio>
+  <audio id="buy">
+        <source src="sounds/buy.mp3">
+  </audio>
+  <button type="button" id="shop"></button>
+  <canvas id="myCanvas" width="650" height="650"></canvas>
+</body>
