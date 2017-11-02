@@ -6,4 +6,4 @@ You'll have to try and beat the Dragon Time Lord in less than 30 seconds! (Doesn
 
 But don't worry! You will get some sweet experience beating monsters which can be used to upgrade your attack, defense or to be invulnerable to the time magic for 10 more seconds!!
 
-Go ahead and try it out in here: https://ccastillo06.github.io/Project-30SecondsToSaveTheWorld/menu.html
+Go ahead and try it out in here: https://ccastillo06.github.io/Project-30SecondsToSaveTheWorld/index.html
